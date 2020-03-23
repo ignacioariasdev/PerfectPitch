@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7062D6E724270AF800872C0E /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7062D6E624270AF800872C0E /* PlaySoundsViewController.swift */; };
+		7062D6E92427663100872C0E /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7062D6E82427663100872C0E /* PlaySoundsViewController+Audio.swift */; };
 		70D9E7F524249DA000CCC6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D9E7F424249DA000CCC6CC /* AppDelegate.swift */; };
 		70D9E7F724249DA000CCC6CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D9E7F624249DA000CCC6CC /* SceneDelegate.swift */; };
-		70D9E7F924249DA000CCC6CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D9E7F824249DA000CCC6CC /* ViewController.swift */; };
+		70D9E7F924249DA000CCC6CC /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D9E7F824249DA000CCC6CC /* RecordSoundsViewController.swift */; };
 		70D9E7FC24249DA000CCC6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D9E7FA24249DA000CCC6CC /* Main.storyboard */; };
 		70D9E7FE24249DA700CCC6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70D9E7FD24249DA700CCC6CC /* Assets.xcassets */; };
 		70D9E80124249DA700CCC6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D9E7FF24249DA700CCC6CC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7062D6E624270AF800872C0E /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		7062D6E82427663100872C0E /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		70D9E7F124249DA000CCC6CC /* PerfectPitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectPitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D9E7F424249DA000CCC6CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70D9E7F624249DA000CCC6CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70D9E7F824249DA000CCC6CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70D9E7F824249DA000CCC6CC /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		70D9E7FB24249DA000CCC6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70D9E7FD24249DA700CCC6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70D9E80024249DA700CCC6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				70D9E7F424249DA000CCC6CC /* AppDelegate.swift */,
 				70D9E7F624249DA000CCC6CC /* SceneDelegate.swift */,
-				70D9E7F824249DA000CCC6CC /* ViewController.swift */,
+				70D9E7F824249DA000CCC6CC /* RecordSoundsViewController.swift */,
+				7062D6E624270AF800872C0E /* PlaySoundsViewController.swift */,
+				7062D6E82427663100872C0E /* PlaySoundsViewController+Audio.swift */,
 				70D9E7FA24249DA000CCC6CC /* Main.storyboard */,
 				70D9E7FD24249DA700CCC6CC /* Assets.xcassets */,
 				70D9E7FF24249DA700CCC6CC /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70D9E7F924249DA000CCC6CC /* ViewController.swift in Sources */,
+				7062D6E92427663100872C0E /* PlaySoundsViewController+Audio.swift in Sources */,
+				70D9E7F924249DA000CCC6CC /* RecordSoundsViewController.swift in Sources */,
 				70D9E7F524249DA000CCC6CC /* AppDelegate.swift in Sources */,
+				7062D6E724270AF800872C0E /* PlaySoundsViewController.swift in Sources */,
 				70D9E7F724249DA000CCC6CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
